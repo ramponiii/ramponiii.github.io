@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.XSSpacing {
+  width: 2vw; 
+}
+
+.MSpacing {
+  width: 5vw;
+}
+
+.MLSpacing {
+  width: 10vw; 
+}
+
+.LSpacing {
+  width: 20vw;
+}
+
+.App-header {
+  background-color:  #bbbcd6;
+  min-height: 20vh;
+  max-height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: white;
+  overview: scroll;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
